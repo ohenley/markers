@@ -70,8 +70,8 @@ procedure Main is
             A.Append (Allocation);
          else
             Put_Line("Failed to allocate " & Allocation.Size'Image & " in " & Allocation.Alloc_Time'Image);
-            --Deallocate_In_Order (A);
-            Deallocate_In_Random_Order (A);
+            Deallocate_In_Order (A);
+            -- Deallocate_In_Random_Order (A);
             return Markers.Get_Top_Marker (0);
          end if;
       end loop;
