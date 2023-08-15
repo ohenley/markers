@@ -1,0 +1,9 @@
+name = "markers"
+description = "Markers based allocator"
+version = "0.1.0-dev"
+
+authors = ["olivier henley"]
+maintainers = ["olivier henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+
+executables = ["markers"]

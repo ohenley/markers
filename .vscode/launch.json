@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "gdb",
+        "request": "launch",
+        "name": "Ada Allocation (Launch)",
+        "target": "bin/alc2",
+        "cwd": "${workspaceFolder}",
+        "valuesFormatting": "parseText",
+        "preLaunchTask": "ada: Build current project",
+      }
+    ]
+  }
